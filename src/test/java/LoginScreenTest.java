@@ -1,4 +1,6 @@
 import static  org.junit.Assert.*;
+
+import org.example.LoginScreen;
 import org.junit.Test;
 
 public class LoginScreenTest {
@@ -6,7 +8,7 @@ public class LoginScreenTest {
     @Test
   public void  testSuccessfullogin() {
     LoginScreen loginScreen = new LoginScreen();
-    assertTrue(loginScreen.login("John","password123"));
+    assertTrue(loginScreen.login("john","password123"));
   }
 
   @Test
